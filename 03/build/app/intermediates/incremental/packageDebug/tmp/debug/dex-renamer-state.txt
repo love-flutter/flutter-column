@@ -1,4 +1,0 @@
-#Tue Jun 16 11:53:10 CST 2020
-base.0=/Users/danhuang/Desktop/flutter-column/05/with_sub_widget-rebuild/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
