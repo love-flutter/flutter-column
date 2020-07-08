@@ -7,7 +7,7 @@ void main() {
 
   test('test userinfo', () {
     expect(userInfo.nickname == 'test', true);
-    expect(userInfo.headerImage, 'http://test.com');
+    expect(userInfo.headerImage, 'http://test.com',true);
   });
 
 }
