@@ -4,13 +4,13 @@ import 'package:provider/provider.dart';
 import 'package:two_you_friend/model/like_num_model.dart';
 import 'package:two_you_friend/styles/text_syles.dart';
 
-/// 帖子文章的赞组件
+/// 贴子文章的赞组件
 ///
 /// 包括点赞组件 icon ，以及组件点击效果
 /// 需要外部参数[likeNum],点赞数量
-/// [articleId] 帖子的内容
+/// [articleId] 贴子的内容
 class SingleLikeBar extends StatelessWidget {
-  /// 帖子id
+  /// 贴子id
   final String articleId;
 
   /// like num

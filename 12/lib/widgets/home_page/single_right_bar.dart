@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:two_you_friend/styles/text_syles.dart';
 
-/// 帖子下面的信息栏
+/// 贴子下面的信息栏
 ///
 /// 包括用户头像、昵称和评论信息，但不包括点赞，因为点赞为动态组件
 /// 需要参数[nickname]、[headerImage]、[commentNum]
@@ -21,7 +21,7 @@ class SingleRightBar extends StatelessWidget {
       {Key key, this.nickname, this.headerImage, this.commentNum})
       : super(key: key);
 
-  /// 帖子栏中的用户头像和昵称信息
+  /// 贴子栏中的用户头像和昵称信息
   Widget getUserWidget() {
     return Column(
       children: <Widget>[
@@ -39,7 +39,7 @@ class SingleRightBar extends StatelessWidget {
     );
   }
 
-  /// 帖子栏中的评论信息
+  /// 贴子栏中的评论信息
   Widget getCommentWidget() {
     return Column(
       children: <Widget>[
@@ -58,7 +58,9 @@ class SingleRightBar extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.end,
       children: <Widget>[
-        Padding(padding: EdgeInsets.only(top: 300)),
+        Padding(
+            padding: EdgeInsets.only(top: MediaQuery.of(context).size.height/4)
+        ),
         getUserWidget(),
         getCommentWidget()
       ],
