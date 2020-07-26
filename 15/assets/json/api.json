@@ -1,0 +1,32 @@
+{
+  "recommendList" : {
+    "method" : "get",
+    "apiUrl" : "https://www.fastmock.site/mock/978685eaf6950d1e2f0790f85cfdacaa/cgi-bin/recommend_list",
+    "params" : null
+  },
+  "recommendListNext" : {
+    "method" : "get",
+    "apiUrl" : "https://www.fastmock.site/mock/978685eaf6950d1e2f0790f85cfdacaa/cgi-bin/get_recommend_list/next/{lastId}",
+    "params" : null
+  },
+  "newMessage" : {
+    "method" : "get",
+    "apiUrl" : "https://www.fastmock.site/mock/978685eaf6950d1e2f0790f85cfdacaa/cgi-bin/get_new_message",
+    "params" : null
+  },
+  "detailInfo" : {
+    "method" : "get",
+    "apiUrl" : "https://www.fastmock.site/mock/978685eaf6950d1e2f0790f85cfdacaa/cgi-bin/get_detail/{id}",
+    "params" : null
+  },
+  "followList" : {
+    "method" : "get",
+    "apiUrl" : "https://www.fastmock.site/mock/978685eaf6950d1e2f0790f85cfdacaa/cgi-bin/follow_list",
+    "params" : null
+  },
+  "userInfo" : {
+    "method" : "get",
+    "apiUrl" : "https://www.fastmock.site/mock/978685eaf6950d1e2f0790f85cfdacaa/cgi-bin/user_info/{id}",
+    "params" : null
+  }
+}
