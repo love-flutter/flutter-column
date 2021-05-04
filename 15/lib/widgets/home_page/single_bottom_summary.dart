@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 import 'package:two_you_friend/styles/text_syles.dart';
 
 /// 贴子概要信息
@@ -31,7 +31,7 @@ class SingleBottomSummary extends StatelessWidget {
           Padding(padding: EdgeInsets.only(top: 120)),
           FlatButton(
             padding: EdgeInsets.zero,
-            onPressed: () => Router()
+            onPressed: () =>ProjectRouter()
                 .open(context, "tyfapp://contentpage?articleId=${articleId}"),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 // 底部导航栏
 //import 'package:two_you_friend/pages/entrance_bottom_bar.dart';
 // 顶部导航栏
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue, // APP 主题
         ),
-        routes: Router().registerRouter(),
+        routes: ProjectRouter().registerRouter(),
         home: Entrance());
   }
 }

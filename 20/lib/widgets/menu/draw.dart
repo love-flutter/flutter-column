@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 
 /// 左侧菜单
 class MenuDraw extends StatelessWidget {
@@ -30,7 +30,7 @@ class MenuDraw extends StatelessWidget {
               title: Text('单图片信息'),
               onTap: () {
                 Navigator.pop(context);
-                Router().open(context, 'tyfapp://singlepage');
+               ProjectRouter().open(context, 'tyfapp://singlepage');
               },
             ),
             ListTile(

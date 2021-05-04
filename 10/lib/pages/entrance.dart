@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:uni_links/uni_links.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 
 /// eum 类型
 enum UniLinksType {
@@ -22,7 +22,7 @@ class Entrance extends StatefulWidget {
 class _EntranceState extends State<Entrance> {
   UniLinksType _type = UniLinksType.string;
   StreamSubscription _sub;
-  Router router = Router();
+  ProjectRouter router = ProjectRouter();
 
   @override
   void initState() {

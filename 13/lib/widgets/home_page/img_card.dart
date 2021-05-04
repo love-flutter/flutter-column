@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 import 'package:two_you_friend/util/struct/content_detail.dart';
 
 /// 大小图卡片，注意这里必须是三分小图
@@ -22,7 +22,7 @@ class ImgCard extends StatelessWidget {
 
   /// 执行页面跳转到article_detail
   void goToArticleDetailPage(BuildContext context, String articleId) {
-    Router().open(context, "tyfapp://contentpage?articleId=${articleId}");
+    ProjectRouter().open(context, "tyfapp://contentpage?articleId=${articleId}");
   }
 
   @override

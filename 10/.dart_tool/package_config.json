@@ -1,0 +1,158 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "async",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/async-2.5.0-nullsafety.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "boolean_selector",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/boolean_selector-2.1.0-nullsafety.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "characters",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/characters-1.1.0-nullsafety.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "charcode",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/charcode-1.2.0-nullsafety.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "clock",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/clock-1.1.0-nullsafety.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "collection",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/collection-1.15.0-nullsafety.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "cupertino_icons",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/cupertino_icons-0.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "fake_async",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/fake_async-1.2.0-nullsafety.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/huangdh/Desktop/flutter/sdk/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "flutter_test",
+      "rootUri": "file:///Users/huangdh/Desktop/flutter/sdk/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "2.2"
+    },
+    {
+      "name": "flutter_webview_plugin",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/flutter_webview_plugin-0.3.0+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "matcher",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/matcher-0.12.10-nullsafety.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "meta",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/meta-1.3.0-nullsafety.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/path-1.8.0-nullsafety.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "sky_engine",
+      "rootUri": "file:///Users/huangdh/Desktop/flutter/sdk/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "1.11"
+    },
+    {
+      "name": "source_span",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/source_span-1.8.0-nullsafety.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "stack_trace",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/stack_trace-1.10.0-nullsafety.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "stream_channel",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/stream_channel-2.1.0-nullsafety.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "string_scanner",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/string_scanner-1.1.0-nullsafety.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "term_glyph",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/term_glyph-1.2.0-nullsafety.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "test_api",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/test_api-0.2.19-nullsafety.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/typed_data-1.3.0-nullsafety.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "uni_links",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/uni_links-0.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "vector_math",
+      "rootUri": "file:///Users/huangdh/.pub-cache/hosted/pub.flutter-io.cn/vector_math-2.1.0-nullsafety.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    },
+    {
+      "name": "two_you_friend",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    }
+  ],
+  "generated": "2021-05-04T00:43:53.122813Z",
+  "generator": "pub",
+  "generatorVersion": "2.10.1"
+}

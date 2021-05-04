@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 import 'package:two_you_friend/pages/entrance.dart';
 
 /// APP 核心入口文件
@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue, // APP 主题
         ),
-        routes: Router().registerRouter(),
+        routes: ProjectRouter().registerRouter(),
 //        onGenerateRoute: (RouteSettings settings) {
-//          return Router().generateRoute(
+//          returnProjectRouter().generateRoute(
 //              settings.name,
 //              settings.arguments
 //          );

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 import 'package:two_you_friend/model/like_num_model.dart';
 // 底部导航栏
 import 'package:two_you_friend/pages/entrance.dart';
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
               theme: ThemeData(
                 primarySwatch: Colors.blue, // APP 主题
               ),
-              routes: Router().registerRouter(),
+              routes: ProjectRouter().registerRouter(),
               home: Entrance()),
         ));
   }

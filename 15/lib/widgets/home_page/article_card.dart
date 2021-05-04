@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 import 'package:two_you_friend/util/struct/content_detail.dart';
 import 'package:two_you_friend/widgets/home_page/article_bottom_bar.dart';
 import 'package:two_you_friend/widgets/home_page/article_like_bar.dart';
@@ -16,7 +16,7 @@ class ArticleCard extends StatelessWidget {
 
   /// 执行页面跳转到article_detail
   void goToArticleDetailPage(BuildContext context, String articleId) {
-    Router().open(context, "tyfapp://contentpage?articleId=${articleId}");
+   ProjectRouter().open(context, "tyfapp://contentpage?articleId=${articleId}");
   }
 
   @override

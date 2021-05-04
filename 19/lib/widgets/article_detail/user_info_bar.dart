@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 import 'package:two_you_friend/styles/text_syles.dart';
 import 'package:two_you_friend/util/struct/user_info.dart';
 
@@ -26,7 +26,7 @@ class ArticleDetailUserInfoBar extends StatelessWidget {
             flex: 4,
             child: FlatButton(
               padding: EdgeInsets.zero,
-              onPressed: () => Router().open(
+              onPressed: () =>ProjectRouter().open(
                   context, "tyfapp://userpageguest?userId=${userInfo.uid}"),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,

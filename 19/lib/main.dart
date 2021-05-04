@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 import 'package:two_you_friend/pages/entrance.dart';
 import 'package:two_you_friend/widgets/common/error.dart';
 import 'package:two_you_friend/util/tools/app_provider.dart';
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
               theme: ThemeData(
                 primarySwatch: Colors.blue, // APP 主题
               ),
-              routes: Router().registerRouter(),
+              routes:ProjectRouter().registerRouter(),
               home: Entrance()),
         ),
         builder: (BuildContext context, AsyncSnapshot<Widget> snapshot) {

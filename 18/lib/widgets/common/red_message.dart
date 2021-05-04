@@ -27,7 +27,7 @@ class CommonRedMessage {
   static Widget _getBadge(Widget needRedWidget, String msgTips) {
     return Badge(
       alignment: Alignment.bottomLeft,
-      position: BadgePosition.topRight(),
+      position: BadgePosition.topStart(),
       toAnimate: false,
       badgeContent: Text(
         '$msgTips',

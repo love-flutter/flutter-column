@@ -10,7 +10,7 @@ import 'package:two_you_friend/model/new_message_model.dart';
 import 'package:two_you_friend/pages/search_page/custom_delegate.dart';
 import 'package:two_you_friend/widgets/menu/draw.dart';
 import 'package:two_you_friend/widgets/common/red_message.dart';
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 
 /// eum 类型
 enum UniLinksType {
@@ -39,7 +39,7 @@ class _EntranceState extends State<Entrance>
 
   UniLinksType _type = UniLinksType.string;
   StreamSubscription _sub;
-  Router router = Router();
+  ProjectRouter router = ProjectRouter();
 
   @override
   void initState() {

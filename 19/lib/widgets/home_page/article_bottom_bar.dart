@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 import 'package:two_you_friend/styles/text_syles.dart';
 
 /// 贴子下面的信息栏
@@ -30,7 +30,7 @@ class ArticleBottomBar extends StatelessWidget {
     return FlatButton(
       padding: EdgeInsets.zero,
       onPressed: () =>
-          Router().open(context, "tyfapp://userpageguest?userId=${uid}"),
+         ProjectRouter().open(context, "tyfapp://userpageguest?userId=${uid}"),
       child: Row(
         children: <Widget>[
           ClipRRect(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:two_you_friend/router.dart';
+import 'package:two_you_friend/project_router.dart';
 import 'package:two_you_friend/model/new_message_model.dart';
 import 'package:two_you_friend/widgets/common/red_message.dart';
 
@@ -17,7 +17,7 @@ class UserPageButtonList extends StatelessWidget {
           leading: Icon(Icons.person_pin),
           title: Text('我的好友'),
           onTap: () {
-            Router().open(context, "tyfapp://followlistpage");
+           ProjectRouter().open(context, "tyfapp://followlistpage");
           },
         ),
         ListTile(
@@ -26,14 +26,14 @@ class UserPageButtonList extends StatelessWidget {
           title: Text('我的消息'),
           onTap: () {
             newMessageModel.readNewMessage();
-            Router().open(context, "tyfapp://usermessage");
+           ProjectRouter().open(context, "tyfapp://usermessage");
           },
         ),
         ListTile(
           leading: Icon(Icons.settings),
           title: Text('系统设置'),
           onTap: () {
-            Router().open(context, "tyfapp://systemconfigpage");
+           ProjectRouter().open(context, "tyfapp://systemconfigpage");
           },
         )
       ],
