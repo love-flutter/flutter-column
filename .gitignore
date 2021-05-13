@@ -3,3 +3,4 @@
 .flutter-plugins-dependencies
 .packages
 pubspec.lock
+.flutter-plugins
