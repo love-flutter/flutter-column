@@ -7,3 +7,6 @@
 3. 将根目录下的analysis_options.yaml、format_check.sh、pubspec.yaml拷贝进去覆盖
 4. 执行flutter pub get更新本地包文件
 5. 启动运行项目
+
+#### 特别注意
+由于 flutter 已经更新到 2.0 版本，因此其中做了适配，只能运行在 2.0 以上的版本
