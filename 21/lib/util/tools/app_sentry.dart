@@ -3,16 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
 import 'package:sentry/sentry.dart';
-import 'package:sentry/io_client.dart';
 
 import 'package:two_you_friend/util/tools/report.dart';
-
-
-/// 创建 SentryClient 用于将异常日志上报给 sentry 平台
-final SentryClient _sentry = SentryClient(
-  dsn:
-      'https://f886adfd35e64062b01feb5e9a8723f6@o425523.ingest.sentry.io/5362342',
-);
 
 /// 判断当前环境类型
 const bool inProduction = bool.fromEnvironment("dart.vm.product");
@@ -34,6 +26,11 @@ class AppSentry {
       }
     };
     runZonedGuarded<Future<Null>>(() async {
+      await Sentry.init(
+        (options) {
+          options.dsn = 'https://f886adfd35e64062b01feb5e9a8723f6@o425523.ingest.sentry.io/5362342';
+        },
+      );
       runApp(appMain);
       Report.start();
     }, (error, stackTrace) async {
@@ -48,15 +45,11 @@ class AppSentry {
       print(stackTrace);
     }
     // sentry 上报
-    final SentryResponse response = await _sentry.captureException(
-      exception: error,
+    final sentryId = await Sentry.captureException(
+      error,
       stackTrace: stackTrace,
     );
 
-    if (response.isSuccessful) {
-      print('Success! Event ID: ${response.eventId}');
-    } else {
-      print('Failed to report to Sentry.io: ${response.error}');
-    }
+    print('Success! Event ID: ${sentryId}');
   }
 }
